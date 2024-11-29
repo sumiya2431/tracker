@@ -1,5 +1,75 @@
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: hwb(212 30% 9%);
+}
+
+.container {
+  background-color: hwb(210 91% 8%);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%; /* Adjust width as needed */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%; /* Adjust width for each section */
+  margin: 0 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#summary {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive Design (Optional) */
+@media (max-width: 768px) {
+  section {
+      width: 100%;
+      margin: 0 0 20px;
+  }
+}
+/* body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: #f9f9f9;
@@ -45,4 +115,4 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
